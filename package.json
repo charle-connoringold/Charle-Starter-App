@@ -1,0 +1,30 @@
+{
+  "name": "product-installer-plus",
+  "version": "1.0.0",
+  "main": "web/index.js",
+  "license": "UNLICENSED",
+  "scripts": {
+    "shopify": "shopify",
+    "build": "shopify app build",
+    "dev": "shopify app dev",
+    "info": "shopify app info",
+    "generate": "shopify app generate",
+    "deploy": "shopify app deploy"
+  },
+  "dependencies": {
+    "@shopify/app": "3.45.4",
+    "@shopify/cli": "3.45.4",
+    "@shopify/shopify-app-session-storage-postgresql": "^1.1.2",
+    "dotenv": "^16.0.3"
+  },
+  "author": "connor",
+  "description": "This is a template for building a [Shopify app](https://shopify.dev/docs/apps/getting-started) using Node and React. It contains the basics for building a Shopify app.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConnorIngold/product-installer-plus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ConnorIngold/product-installer-plus/issues"
+  },
+  "homepage": "https://github.com/ConnorIngold/product-installer-plus#readme"
+}
